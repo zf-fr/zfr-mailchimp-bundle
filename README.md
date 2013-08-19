@@ -51,8 +51,8 @@ To configure the bundle, add the following to your app/config/config.yml:
 ``` yml
 # app/config/config.yml
 zfr_mail_chimp:
-  api_key: your MailChimp API key here
-  async: use Guzzle's Asyncronous library (default: false)
+  api_key: #your MailChimp API key here (required)
+  async: #use Guzzle's Asyncronous library (default: false)
 ```
 
 ## Usage
