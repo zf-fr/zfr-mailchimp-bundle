@@ -1,3 +1,0 @@
-zfr_mail_chimp_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: ZFRMailChimpBundle:Default:index }
