@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('zfr_mail_chimp');
+        $rootNode = $treeBuilder->root('zfr_mailchimp');
 
         $rootNode
             ->children()
