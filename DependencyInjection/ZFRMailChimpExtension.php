@@ -1,6 +1,6 @@
 <?php
 
-namespace ZFR\MailChimpBundle\DependencyInjection;
+namespace ZfrMailChimpBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -13,7 +13,7 @@ use Symfony\Component\Config\Definition\Processor;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class ZFRMailChimpExtension extends Extension
+class ZfrMailChimpExtension extends Extension
 {
     /**
      * {@inheritDoc}
