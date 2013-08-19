@@ -1,6 +1,8 @@
 ZfrMailChimpBundle
 ==================
 
+[![Latest Stable Version](https://poser.pugx.org/zfr/zfr-mailchimp-bundle/v/stable.png)](https://packagist.org/packages/zfr/zfr-mailchimp-bundle)
+
 A Symfony 2 bundle for the [ZfrMailChimp](https://github.com/zf-fr/zfr-mailchimp) library.
 
 ## Installation
