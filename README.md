@@ -1,5 +1,5 @@
-zfr-mailchimp-bundle
-====================
+ZfrMailChimpBundle
+==================
 
 A Symfony 2 bundle for the [ZfrMailChimp](https://github.com/zf-fr/zfr-mailchimp) library.
 
@@ -27,7 +27,7 @@ To have composer download the needed files, run:
 $ php composer.phar update zfr/zfr-mailchimp-bundle
 ```
 
-This will place the bundle (and the zfr-mailchimp library) inside the `vendor/zfr` directory of your project.
+This will place the bundle (and the ZfrMailChimp library) inside the `vendor/zfr` directory of your project.
 
 Next, enable the bundle in your project by adding it to the AppKernel:
 
@@ -39,7 +39,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new \ZFR\MailChimpBundle\ZFRMailChimpBundle()
+        new ZfrMailChimpBundle\ZfrMailChimpBundle()
     );
 }
 ```
@@ -50,7 +50,7 @@ To configure the bundle, add the following to your app/config/config.yml:
 
 ``` yml
 # app/config/config.yml
-zfr_mail_chimp:
+zfr_mailchimp:
   api_key: #your MailChimp API key here (required)
   async: #use Guzzle's Asyncronous library (default: false)
 ```
@@ -60,5 +60,5 @@ zfr_mail_chimp:
 Lastly, call the client using Symfony's DI Container:
 
 ```php
-$mailchimp = $this->get('zfr_mail_chimp')->getClient();
+$mailchimp = $this->get('zfr_mailchimp')->getClient();
 ```

@@ -2,11 +2,12 @@
   "name": "zfr/zfr-mailchimp-bundle",
   "type": "library",
   "license": "MIT",
-  "description" : "Symfony bundle for integrating the ZFR MailChimp library",
+  "description" : "Symfony bundle for integrating the ZfrMailChimp library",
   "keywords": [
     "mailchimp",
     "mail",
-    "campaign"
+    "campaign",
+    "symfony2"
   ],
   "homepage": "https://github.com/zf-fr/zfr-mailchimp-bundle",
   "authors": [
@@ -17,11 +18,10 @@
     }
   ],
   "require": {
-    "zfr/zfr-mailchimp": "1.*",
-      "symfony/framework-bundle": "2.*"
+    "symfony/framework-bundle": "2.*",
+    "zfr/zfr-mailchimp": "1.*"
   },
   "autoload": {
-      "psr-0": { "ZFR\\MailChimpBundle": "" }
-  },
-  "target-dir": "ZFR/MailChimpBundle"
+      "psr-0": { "ZfrMailChimpBundle": "" }
+  }
 }
