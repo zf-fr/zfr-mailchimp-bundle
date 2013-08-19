@@ -28,7 +28,7 @@ class ZFRMailChimpExtension extends Extension
 
         foreach (array('api_key', 'default_list', 'async') as $attribute) {
             if (isset($config[$attribute])) {
-                $container->setParameter('zfr_mail_chimp.' . $attribute, $config[$attribute]);
+                $container->setParameter('zfr_mailchimp.' . $attribute, $config[$attribute]);
             }
         }
     }
