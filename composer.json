@@ -27,7 +27,7 @@
     "zfr/zfr-mailchimp": "1.*"
   },
   "autoload": {
-      "psr-0": { "ZfrMailChimpBundle\\ZfrMailChimpBundle": "" }
+      "psr-0": { "ZfrMailChimpBundle": "" }
   },
   "target-dir": "ZfrMailChimpBundle"
 }
