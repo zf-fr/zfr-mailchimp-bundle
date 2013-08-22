@@ -52,7 +52,7 @@ To configure the bundle, add the following to your app/config/config.yml:
 
 ``` yml
 # app/config/config.yml
-zfr_mailchimp:
+zfr_mail_chimp:
   api_key: #your MailChimp API key here (required)
   async: #use Guzzle's Asyncronous library (default: false)
 ```
@@ -62,5 +62,5 @@ zfr_mailchimp:
 Lastly, call the client using Symfony's DI Container:
 
 ```php
-$mailchimp = $this->get('zfr_mailchimp')->getClient();
+$mailchimp = $this->get('zfr_mail_chimp')->getClient();
 ```
