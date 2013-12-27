@@ -24,7 +24,7 @@
   ],
   "require": {
     "symfony/framework-bundle": "2.*",
-    "zfr/zfr-mailchimp": "~1.1"
+    "zfr/zfr-mailchimp": "~2.0"
   },
   "autoload": {
       "psr-0": { "ZfrMailChimpBundle": "" }
