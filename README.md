@@ -18,7 +18,7 @@ or via your composer.json file:
 ```js
 {
     "require": {
-        "zfr/zfr-mailchimp-bundle": "1.*"
+        "zfr/zfr-mailchimp-bundle": "2.*"
     }
 }
 ```
