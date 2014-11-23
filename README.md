@@ -62,5 +62,5 @@ zfr_mail_chimp:
 Lastly, call the client using Symfony's DI Container:
 
 ```php
-$mailchimp = $this->get('zfr_mail_chimp')->getClient();
+$mailchimp = $this->get('zfr_mailchimp')->getClient();
 ```
