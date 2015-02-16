@@ -19,7 +19,6 @@
 namespace ZfrMailChimpBundle\Services;
 
 use Guzzle\Plugin\Async\AsyncPlugin;
-use Symfony\Component\DependencyInjection\ContainerInterface;
 use ZfrMailChimp\Client\MailChimpClient;
 
 class MailChimpHandler
