@@ -4,4 +4,4 @@ parameters:
 services:
   zfr_mailchimp:
     class: ZfrMailChimpBundle\Services\MailChimpHandler
-    arguments: [%zfr_mail_chimp.api_key%,%zfr_mail_chimp.async%]
+    arguments: ["%zfr_mail_chimp.api_key%,%zfr_mail_chimp.async%"]
